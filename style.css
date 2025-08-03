@@ -1,0 +1,167 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f8f4fc;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #7f3fbf;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 1s ease-in;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #7f3fbf;
+  margin-bottom: 15px;
+}
+
+.profile {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #7f3fbf;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon-img {
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+p, a {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+a {
+  color: #7f3fbf;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #552d84;
+  text-decoration: underline;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+/* Project section styles */
+.project {
+  background-color: #f3e9ff;
+  border-left: 5px solid #7f3fbf;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.project h3 {
+  color: #7f3fbf;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeInDown {
+  from {transform: translateY(-20px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+
+@keyframes fadeInUp {
+  from {transform: translateY(20px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .profile {
+    width: 150px;
+    height: 150px;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  .languages {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
