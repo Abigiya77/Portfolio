@@ -1,3 +1,4 @@
+
 💻 Abigiya Diribsa's Portfolio
 
 Welcome to my personal portfolio website, built and hosted using GitHub Pages!  
@@ -43,6 +44,11 @@ This portfolio was developed to:
 - Showcase my coding skills and progress
 - Share my work with others, including potential collaborators or employers
 - Participate in the PLP Portfolio Hackathon
+
+🙏 Special Thanks
+
+A big thank you to My Deskie Yonathan Birihanu https://github.com/Yoni-Berihunfor his valuable contribution and support throughout this project.
+
 
 
 📬 Contact
