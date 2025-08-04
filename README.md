@@ -35,6 +35,7 @@ This website highlights my background, educational journey, and the projects Iâ€
 My CV is available in the website under the "CV" section as a downloadable file.
  
 
+
  ðŸš€ Why I Built This
 
 This portfolio was developed to:
