@@ -9,7 +9,7 @@ This portfolio was created to showcase who I am, the projects I’ve worked on, 
 
  🌟 About Me
 
-I’m Abigiya Diribsa — a passionate and aspiring developer.  
+I’m Abigiya Diribsa a passionate and aspiring software development student.  
 This website highlights my background, educational journey, and the projects I’ve created as I grow in the world of tech.
 
 
