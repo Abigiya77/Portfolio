@@ -47,7 +47,7 @@ This portfolio was developed to:
 
 🙏 Special Thanks
 
-A big thank you to My Deskie Yonathan Birihanu https://github.com/Yoni-Berihunfor his valuable contribution and support throughout this project.
+A big thank you to My Deskie Yonathan Berihun https://github.com/Yoni-Berihun for his valuable contribution and support throughout this project.
 
 
 
